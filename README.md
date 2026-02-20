@@ -55,31 +55,32 @@ Copiar código
 - Multi-AZ deployment for resilience
 
 ---
-
- How to Use
-
-### 1. Initialize Terraform
-```bash
 terraform init
+
 2. Validate Configuration
 bash
-Copiar código
+Copy code
 terraform validate
+
 3. Preview Changes
 bash
-Copiar código
+Copy code
 terraform plan
+
 4. Apply Infrastructure
 bash
-Copiar código
+Copy code
 terraform apply
+
 5. Destroy Infrastructure (to avoid charges)
 bash
-Copiar código
+Copy code
 terraform destroy
+
+
 Project Structure
 csharp
-Copiar código
+Copy code
 infra-aws-base/
 ├── providers.tf
 ├── versions.tf
@@ -92,7 +93,10 @@ infra-aws-base/
 ├── route_table_private.tf
 ├── outputs.tf
 └── README.md
+
+
 Learning Objectives
+
 This project demonstrates:
 
 Cloud networking fundamentals in AWS
@@ -105,7 +109,9 @@ High availability architecture design
 
 Resource dependency management
 
+
 🛠 Technologies Used
+
 AWS
 
 Terraform
@@ -114,4 +120,5 @@ Infrastructure as Code (IaC)
 
 
 👤 Author
-Developed as part of cloud engineering portfolio practice.
+
+Developed as part of a cloud engineering portfolio practice.
